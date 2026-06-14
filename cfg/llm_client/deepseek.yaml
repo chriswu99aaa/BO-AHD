@@ -1,0 +1,6 @@
+_target_: utils.llm_client.openai.OpenAIClient
+
+model: deepseek-chat  # 可选：deepseek-chat 或 deepseek-coder
+temperature: 1.0
+base_url: "https://api.deepseek.com"  # DeepSeek API 地址
+api_key: ""  # 请填入你的 DeepSeek API Key
